@@ -1,62 +1,76 @@
-
 h1 {
-  color:rgba(255, 99, 71, 0.5);
-  text-align: center;
-  font-size: 40px;
-  margin: 100px;
-}
-
-
-.att{
-  clear:left;
-  color :rgb(214, 122, 127);
-  text-align:left;
-  font-size: 20px;
-  margin: 40px;
-}
-
-
-.name{
- color: rgb(172, 90, 90);
-  text-align: left;
-  font-size: 20px;
-}
-
-
-img.img{
-  float: left;
-  margin-left: 60px;
-  margin-bottom: 50px;
-  margin-right: 20px;
-  width : 250px;
-  height : 200px; 
-}
-
-
-.tech{
+    color:rgba(255, 99, 71, 0.5);
+    text-align: center;
+    font-size: 40px;
+    margin: 100px;
+    position: absolute ,center;
   
-  color :rgb(89, 119, 131);
+
+
+  }
   
-  font-size: 30px;
-  margin: 40px;
-}
-
-
-.res{
   
-  color :rgb(89, 119, 131);
+  .att{
+    clear:left;
+    color :rgb(214, 122, 127);
+    text-align:left;
+    font-size: 20px;
+    margin: 40px;
+  }
   
-  font-size: 30px;
-  margin: 40px;
-}
-
-
-h1{
-  text-align: center;
-}
-h2{
-  text-align: center;
-}
-h3{
-  text-align: center;
-}
+  
+  .name{
+   color: rgb(172, 90, 90);
+    text-align: left;
+    font-size: 20px;
+   
+  }
+  
+  
+  .img{
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    width : 250px;
+    height : 200px; 
+  
+  }
+  
+  
+  .tech{
+    
+    color :rgb(89, 119, 131);
+    
+    font-size: 30px;
+    margin: 40px;
+  }
+  
+  
+  .res{
+    
+    color :rgb(89, 119, 131);
+    
+    font-size: 30px;
+    margin: 40px;
+  }
+  body{
+    background-color:  rgb(255, 245, 238);
+  }
+  
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  button{
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    margin-left: 20px;
+  }
+  
