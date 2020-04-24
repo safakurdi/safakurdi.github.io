@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <title>WURFL database</title>
+</head>
+
+<body>
+    <div class="ui container">
+        <table class="ui inverted blue table">
+            <thead>
+                <tr>
+                    <th>capabilities offered by WURFL database</th>
+                    <th>describtion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>complete_device_name</td>
+                    <td>Concatenates brand name, model name and marketing name (where available) of a device into a
+                        single string.</td>
+                </tr>
+                <tr>
+                    <td>form_factor</td>
+                    <td>Returns the device's form factor based on categorization provided by multiple capability tests.
+                    </td>
+                </tr>
+                <tr>
+                    <td>is_robot</td>
+                    <td>True if the HTTP Client is a Bot (robot, crawler or other programmable agent that stalks the
+                        web).</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="ui buttons">
+            <button class="ui button" onclick="window.location.href= 'index.html'">Main Page</button>
+            <button class="ui button" onclick="window.location.href= 'contact_us.html'">Contact Us</button>
+            <button class="ui button" onclick="window.location.href= 'Products.html'">Products</button>
+            <button class="ui button" onclick="window.location.href= 'location.html'">Location</button>
+        </div>
+    </div>
+</body>
